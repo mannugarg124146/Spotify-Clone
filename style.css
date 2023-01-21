@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+nav ul{
+    height: 80px;
+   background-color: black;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    align-items: center;
+
+
+}
+.brand img
+{
+    height: 78px;
+    /* width: 50px; */
+    padding: 0px 7px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.9rem;
+}
+nav ul li{
+    padding: 15px 15px;
+    font-weight: bold;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 80%;
+    padding: 20px ;
+    margin: 23px auto;
+    font-family: cursive;
+    border-radius: 40px;
+    background-image: url('mg2.jpg');
+    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-blend-mode: lighten;
+}
+.container2{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 80%;
+    padding: 20px ;
+    margin: 23px auto;
+    font-family: cursive;
+    border-radius: 40px;
+   
+}
+.bottom{
+    height: 100px;
+    background-color:black;
+    position: sticky;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myprogressbar{
+    width: 150vh;
+    cursor: pointer;
+}
+.SongItem{
+    height: 50px;
+    /* width: 110%; */
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin: 5px 0px;
+}
+.SongItem img{
+    width: 40px;
+    margin: 0px 20px;
+    border-radius: 30px;
+}
+.timespan{
+    margin: 0px 23px;
+    cursor: pointer;
+}
+.SongInfo{
+    position: absolute;
+    left: 14vw;
+}
+.SongInfo img{
+    opacity: 0;
+    transition: opacity .4s ease-in;
+}
+
